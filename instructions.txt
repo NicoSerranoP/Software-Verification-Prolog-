@@ -1,0 +1,41 @@
+While Loop Verification Software:
+
+In order to proof that the while is working logically
+correct (as P{Q}R) I have divided the while verification
+in two main steps:
+
+  1. condition
+  2. body
+
+So in order to know that the loop is logically correct
+we need to verify:
+
+  1. P is true
+  2. Q is execution within rules of the language
+  3. R is going to be true with cond false
+
+To check your while loop, you need to follow these steps:
+
+  1. enter the initialized variables of the loop
+      initelement(variable).
+      // example: initelement(n).
+
+  2. enter the while condition set like
+      whilecond(loop_name,variable1,sign,variable2).
+      // example: whilecond(while_1,n,<,p).
+
+  3. enter the type of the two variables like
+      type(loop_name,variable1,variable2).
+      // example: type(while_1,int,int).
+
+  5. indicate which element is modified in the loop
+      insielement(loop_name,variable).
+      // example: insielement(while_1,cont).
+
+  6. specify if there is another line in the code like
+      lines(loop_name).
+      // example: lines(while_1).
+
+  6. indicate modifier action of variable like
+      increase(loop_name,variable).
+      // example: increase(while_1,cont).
