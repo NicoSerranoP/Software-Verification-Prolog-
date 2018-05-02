@@ -1,0 +1,35 @@
+Verification Software:
+
+To check any program, you need to follow these steps:
+
+    1. enter the initialized variables
+        initelement(variable).
+        // example: initelement(n).
+
+    2. enter the variable type
+        type(variable,type).
+        // example: type(n,int).
+
+    3. enter the loop/statement location
+        location(loop_name,location).
+        // example: location(loop_while,main).
+
+    4. enter the condition statement
+        condst(loop_name,variable1,sign,variable2).
+        // example: condst(loop_while,n,<,m).
+
+    5. indicate which element is inside the loop/statement
+        insielement(loop_name,variable).
+        // example insielement(loop_while,n).
+
+    6. indicate what is happening with the element
+        increase(loop_name,variable).
+        decrease(loop_name,variable).
+        approach(loop_name,variable1,variable2).
+        // example: increase(loop_while,n).
+
+    7. specify if there is another line
+        linest(loop_name).
+        while(loop_name,loop_while).
+        for(loop_name,loop_while).
+        if(loop_name,loop_while).
