@@ -190,7 +190,7 @@ location(loop_if,main).
 %facts_assignment_______________________________________________________________
 initelement(var1).
 type(var1,int).
-inielement(var2).
+initelement(var2).
 type(var2,int).
 assignst(loop_assign,var1,=,var2).
 location(loop_assign,main).
@@ -200,7 +200,7 @@ initelement(array).
 type(array,int).
 initelement(other).
 type(other,int).
-inielement(n).
+initelement(n).
 type(n,int).
 initelement(e).
 type(e,int).
@@ -222,4 +222,3 @@ location(while_ani,main).
 linest(while_ani).
 insielement(while_ani,e).
 increase(while_ani,e).
-%not_working____________________________________________________________________
